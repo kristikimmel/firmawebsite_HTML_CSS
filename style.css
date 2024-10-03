@@ -47,6 +47,13 @@ a {
 .btn-primary:hover {
     background: #7ab436;
 }
+.btn-dark {
+    background: #333;
+    color: #fff;
+}
+.btn-dark:hover {
+    background: #444;
+}
 
 /* background */
 .bg-light {
@@ -189,4 +196,9 @@ a {
     width: 100%;
     padding: 0.5rem;
     border: none;
+}
+#contact .contact-form .form-group input:focus,
+#contact .contact-form .form-group textarea:focus{
+    outline: none;
+    border: #333 solid 1px;
 }
