@@ -96,7 +96,7 @@ a {
 
 /* showcase */
 #showcase {
-    background: #333 url('../img/showcase.jpg');
+    background: #333 url('./img/showcase.jpg');
     height: 100vh;
     color: #fff;
 }
@@ -155,7 +155,7 @@ a {
     flex: 1;
 }
 #who .who-img {
-    background: url('/img/people.jpg') no-repeat center center/cover;
+    background: url('./img/people.jpg') no-repeat center center/cover;
 }
 #who ul {
     list-style: none;
