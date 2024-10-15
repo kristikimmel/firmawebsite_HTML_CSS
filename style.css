@@ -6,7 +6,10 @@
     padding: 0;
 }
 
-
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.4;
+}
 
 a {
     text-decoration: none;
@@ -68,7 +71,7 @@ a {
 
 /* navbar */
 #navbar {
-    background: #f10707;
+    background: #333;
     color: #fff;
     position: sticky;
     top: 0;
